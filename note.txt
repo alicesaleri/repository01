@@ -1,0 +1,19 @@
+#you must write this in the nextflow.config file
+
+
+params {
+  genome = '/dataB/aux/38/Homo_sapiens_assembly38.fasta'
+  input = '/external/diskB/build38/datasets/sgdp/fixed_bams/'
+}
+
+profiles {
+
+    slurm {
+
+        executor.name = 'slurm'
+
+        queue = 'batch'
+
+	}
+
+}
