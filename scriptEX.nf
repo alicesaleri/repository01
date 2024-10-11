@@ -13,8 +13,9 @@ process insurveyor_calling {
 	script:
 	out="${core}.vcf.gz"
 	"""
-	insurveyor.py -t 4 ${f[0]} ./ ${params.genome}
-	mv out.vcf.gz ${out}
+	echo "running!!!!!!"
+	insurveyor.py --threads 4 ${f[0]} ./ ${params.genome}
+	echo "insurveyor.py completed!!!!!!!!!"
 	"""
  }
 
@@ -24,7 +25,7 @@ workflow {
 
 	 main:
 		insurveyor_calling(input)
-	        input.view()
+	        /*input.view()*/
 
 
 }
