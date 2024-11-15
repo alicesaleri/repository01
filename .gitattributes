@@ -2,4 +2,3 @@ KnotSV_dir/knotsv_output_tru.vcf.html filter=lfs diff=lfs merge=lfs -text
 /home/ale_sab/project_cnv_vr/code_running/knotsv_vcf/KnotSV_dir/knotsv_output_tru.vcf.html filter=lfs diff=lfs merge=lfs -text
 knotsv_output_tru.vcf.html filter=lfs diff=lfs merge=lfs -text
 [[:space:]]knotsv_output_tru.vcf.html filter=lfs diff=lfs merge=lfs -text
-*.html filter=lfs diff=lfs merge=lfs -text
