@@ -12,3 +12,4 @@ knot.html filter=lfs diff=lfs merge=lfs -text
 *.vcf.html filter=lfs diff=lfs merge=lfs -text
 >>>>>>> temp-branch
 knotsv_output_tru.vcf.html.gz filter=lfs diff=lfs merge=lfs -text
+*.html filter=lfs diff=lfs merge=lfs -text
