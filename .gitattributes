@@ -3,4 +3,4 @@ KnotSV_dir/knotsv_output_tru.vcf.html filter=lfs diff=lfs merge=lfs -text
 [[:space:]]knotsv_output_tru.vcf.html filter=lfs diff=lfs merge=lfs -text
 knot.html filter=lfs diff=lfs merge=lfs -text
 *.html.gz filter=lfs diff=lfs merge=lfs -text
-KnotSV_dir/knotsv_output_tru.vcf.html.gz filter=lfs diff=lfs merge=lfs -text
+KnotSV_dir/*.html.gz filter=lfs diff=lfs merge=lfs -text
